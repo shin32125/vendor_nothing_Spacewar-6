@@ -1655,7 +1655,7 @@ PRODUCT_PACKAGES += \
     CACertService \
     CneApp \
     IWlanService \
-	libthermalclient \
+    libthermalclient \
     TimeService \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
