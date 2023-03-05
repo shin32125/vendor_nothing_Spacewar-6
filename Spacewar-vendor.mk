@@ -1667,6 +1667,9 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    QPerformance \
+    QXPerformance \
+    UxPerformance \
     WfdCommon \
     androidx.camera.extensions.impl.advanced \
     com.android.hotwordenrollment.common.util \
