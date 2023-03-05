@@ -1652,17 +1652,23 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.voiceprint@1.0.so
 
 PRODUCT_PACKAGES += \
+    libfastcvopt \
     libthermalclient \
-    DiracAudioControlService \
+    libaptXHD_encoder \
+    libaptX_encoder \
     CACertService \
     CneApp \
     IWlanService \
     TimeService \
+    pasrservice \
     PowerOffAlarm \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
+    PerformanceMode \
+    PowerSaveMode \
     QtiTelephony \
     QtiTelephonyService \
+    workloadclassifier \
     WfdService \
     dpmserviceapp \
     ims \
@@ -1672,16 +1678,16 @@ PRODUCT_PACKAGES += \
     UxPerformance \
     WfdCommon \
     androidx.camera.extensions.impl.advanced \
+    tcmclient \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.ims.factory-V2.0-java \
     android.hardware.gnss@2.1-service-qti \
-    android.hardware.neuralnetworks@1.3-service-qti \
     c2_manifest_vendor \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.qti.hardware.limits@1.0-service \
     vendor.qti.gnss@4.0-service \
-    vendor.qti.hardware.servicetracker@1.2-service
+    vendor.qti.hardware.limits@1.0-service \
+    vendor.qti.hardware.servicetracker@1.2-service \
+    vendor.qti.hardware.vibrator.service \
+    vendor.qti.memory.pasrmanager@1.0-service
