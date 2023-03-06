@@ -7,6 +7,12 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
+    vendor/nothing/Spacewar/proprietary/vendor/bin/hw/vendor.qti.hardware.vibrator.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.vibrator.service \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/init/vendor.qti.hardware.vibrator.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.vibrator.service.rc \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libaacvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaacvibrator.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/libqtivibratoreffect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtivibratoreffect.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so \
+    vendor/nothing/Spacewar/proprietary/vendor/lib64/vendor.qti.hardware.vibrator.impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vibrator.impl.so \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/advancedSample_camera_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/advancedSample_camera_extensions.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.Performance.xml \
